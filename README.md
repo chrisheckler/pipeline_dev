@@ -3,14 +3,13 @@ Pipeline dev and experimentation
 
 ## Projects completed so far
 
-[data_pipeline_ruffus][https://github.com/chrisheckler/pipeline_dev/tree/master/data_pipeline_ruffus]
+[data_pipeline_ruffus](https://github.com/chrisheckler/pipeline_dev/tree/master/data_pipeline_ruffus)
 
-[luigi_pipeline][https://github.com/chrisheckler/pipeline_dev/tree/master/luigi_pipeline]
+[luigi_pipeline](https://github.com/chrisheckler/pipeline_dev/tree/master/luigi_pipeline)
+[pipeline_elasticsearch](https://github.com/chrisheckler/pipeline_dev/tree/master/pipeline_elasticsearch)
 
-[pipeline_elasticsearch][https://github.com/chrisheckler/pipeline_dev/tree/master/pipeline_elasticsearch]
+[pure_python_pipeline](https://github.com/chrisheckler/pipeline_dev/tree/master/pure_python_pipeline)
 
-[pure_python_pipeline][https://github.com/chrisheckler/pipeline_dev/tree/master/pure_python_pipeline]
+[ruffus_pipeline](https://github.com/chrisheckler/pipeline_dev/tree/master/ruffus_pipeline)
 
-[ruffus_pipeline][https://github.com/chrisheckler/pipeline_dev/tree/master/ruffus_pipeline]
-
-[sample_simple_pipeline][https://github.com/chrisheckler/pipeline_dev/tree/master/sample_simple_pipelines]
+[sample_simple_pipeline](https://github.com/chrisheckler/pipeline_dev/tree/master/sample_simple_pipelines)
