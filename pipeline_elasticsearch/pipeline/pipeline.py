@@ -52,18 +52,4 @@ def add_es_index(input_file, output_file):
         helpers.bulk(es, data, index='persons', doc_type='person')
     Path(output_file).write_text(json.dumps(data))
     
-    
-
-"""
-#
-# STAGE 3 - Find Mean, Min and Max
-#
-
-@transform(add_num,
-            suffix(".json"),
-            ".json")
-
-def index_elastic(input_file, output_file):
-    out_file.write_text(json.dumps(input_file))
-"""
 pipeline_run()
