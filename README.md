@@ -1,5 +1,5 @@
 # pipeline_dev
-Pipeline dev and experimentation
+Pipeline dev and experimentation using pure python, ruffus and luigi
 
 ## Projects completed so far
 
