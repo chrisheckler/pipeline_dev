@@ -10,6 +10,4 @@ Pipeline dev and experimentation
 
 [pure_python_pipeline](https://github.com/chrisheckler/pipeline_dev/tree/master/pure_python_pipeline)
 
-[ruffus_pipeline](https://github.com/chrisheckler/pipeline_dev/tree/master/ruffus_pipeline)
-
 [sample_simple_pipeline](https://github.com/chrisheckler/pipeline_dev/tree/master/sample_simple_pipelines)
