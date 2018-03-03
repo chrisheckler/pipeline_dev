@@ -2,6 +2,8 @@
 Pipeline dev and experimentation using pure python, ruffus and luigi
 
 ## Projects completed so far
+[luigi_template](https://github.com/chrisheckler/pipeline_dev/tree/master/luigi_template)
+
 [api_pipeline](https://github.com/chrisheckler/pipeline_dev/tree/master/api_pipeline)
 
 [data_pipeline_ruffus](https://github.com/chrisheckler/pipeline_dev/tree/master/data_pipeline_ruffus)
