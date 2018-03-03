@@ -7,12 +7,7 @@ class InputFile(luigi.Task):
     input_file = luigi.Parameter()
     def output(self):
         return luigi.LocalTarget(self.input_file)
-"""
-    def run(self):
-        with self.output().open('w') as f:
-            for line in open(self.input_file):
-                f.write(json.dumps(line))
-"""
+
 class StatusCodeCount(luigi.Task):
     input_file = luigi.Parameter()
     def requires(self):
@@ -21,13 +16,7 @@ class StatusCodeCount(luigi.Task):
     def output(self):
         return luigi.LocalTarget('aggregate_api.json')
 
-#    def run(self):
-#       data_json = []
-#        with self.output().open('w') as fout:
-#            fout.write(self.input().open('r').read())
-
     def run(self):
-        from pathlib import Path
         data = {}
         for line in self.input().open().read().strip().split("\n"):
             j_line = json.loads(line)['_source']
