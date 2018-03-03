@@ -4,11 +4,11 @@
 
 ## Stages
 
-### Stage 1
+### Stage0
 Read in a csv file and multiply the numbers by 100.
 
-### Stage 2
+### Stage1 
 Add 15 to the numbers
 
-### Stage 3
+### Stage2 
 Find the Average, Min and Max

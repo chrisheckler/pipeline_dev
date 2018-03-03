@@ -3,9 +3,9 @@ A simple pipeline that converts csv to json and indexes is via elasticsearch
 
 ## Stages of transformation
 
-### Stage 1
+### Stage0
 Read in a csv file and convert it to json add 1500 to salary
 
-### Stage 2
+### Stage1
 Index into elasticsearch
 

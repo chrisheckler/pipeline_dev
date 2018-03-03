@@ -1,4 +1,5 @@
 # api_pipeline
+This is a pipeline done with the luigi pipeline software
 I will take a json file and output a dictionary containing api_key's and count of status codes
 
 ## Stage0
