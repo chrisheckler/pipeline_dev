@@ -7,19 +7,19 @@ from luigi.contrib.esindex import CopyToIndex
 
 
 class InputFile(luigi.Task):
-"""
-This class takes a json file and passes it forward
-to the next task
-"""
+    """
+    This class takes a json file and passes it forward
+    to the next task
+    """
     input_file = luigi.Parameter()
     def output(self):
         return luigi.LocalTarget(self.input_file)
 
 class StatusCodeCount(luigi.Task):
-"""
-This class parses the previous json file and collects
-the code count for each status
-"""
+    """
+    This class parses the previous json file and collects
+    the code count for each status
+    """
     input_file = luigi.Parameter()
     def requires(self):
         return InputFile(self.input_file)
@@ -44,14 +44,14 @@ the code count for each status
             fout.write(json.dumps(data))
 
 class ExampleIndex(CopyToIndex):
-"""
-This class takes the code counts and indexes into 
-elasticsearch index api2
-"""   
+    """
+    This class takes the code counts and indexes into 
+    elasticsearch index api
+    """   
     input_file = luigi.Parameter()
     host = '192.168.254.122'
     port = 9200
-    index = 'api2'
+    index = 'api'
     doc_type = 'default'
     purge_existing_index = True
     marker_index_hist_size = 1
